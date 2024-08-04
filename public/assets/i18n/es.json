@@ -1,0 +1,15 @@
+{
+    "title": "Robinson Arpi",
+    "description": "Ingeniero en Ciencias de la Computación",
+    "quote": "\"Si puedes imaginarlo, puedes programarlo\"",
+    "experience": {
+      "description":"Experiencia",
+      "first": "Trabajé para el Grupo de Infraestructura de Datos Espaciales de la Universidad de Cuenca. Durante mi tiempo allí, me encargué de un proyecto de código abierto que involucraba las plataformas <span class='highlight-text'>GeoNode</span> y <span class='highlight-text'>MapStore</span>. Realicé las siguientes tareas: <b>Edición y Personalización:</b> Adapté y personalicé GeoNode y MapStore para cumplir con las necesidades específicas del grupo. <b>Dockerización y Despliegue:</b> Containericé las aplicaciones utilizando Docker y gestioné su despliegue en los servidores de la universidad. <b>Mantenimiento y Actualizaciones:</b> Realicé el mantenimiento y las actualizaciones en servidores antiguos para asegurar su funcionamiento óptimo y la seguridad del sistema."
+    },  "projects": "Proyectos",
+  "courses": "Cursos",
+    "about_me": "Acerca de mí",
+    "about_me_p1": "Estudié en la Facultad de Ingeniería de la <span class = 'highlight-text'>Universidad de Cuenca</span>. Me encuentro inmerso en el mundo del desarrollo web y análisis de datos. Constantemente me esfuerzo por aprender y aplicar de la mejor manera posible las tecnologías existentes. Busco comprender las complejidades de los problemas para encontrar soluciones sólidas y eficientes.",
+    "about_me_p2": "La <span class='highlight-text'>resiliencia</span> es una cualidad que considero esencial en este camino, ya que enfrentar desafíos y superar obstáculos es parte integral del proceso de desarrollo. En mi viaje académico y práctico, he demostrado una fuerte capacidad de adaptación y aprendizaje rápido, características fundamentales en un entorno de constante evolución."
+
+
+  }

@@ -1,0 +1,12 @@
+/* src/styles/cursor.css */
+#cursor {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    pointer-events: none;
+  }
+  
+  #black-background:hover #cursor {
+    box-shadow: 0 0 500px 100px var(--color-4);
+  }
+  

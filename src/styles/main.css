@@ -1,0 +1,48 @@
+/* src/styles/main.css */
+body {
+    margin: none;
+    padding: none;
+    background: var(--color-1);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  main {
+    overflow-y: auto;
+  }
+  
+  .custom-card {
+    border: 1px;
+    border-radius: 10px;
+  }
+  
+  .custom-card:hover {
+    background-color: var(--color-highlight-2);
+  }
+  
+  .custom-card:hover h5 {
+    color: var(--color-sunshine) !important;
+  }
+  
+  .custom-card p {
+    font-size: 13px;
+  }
+  
+  .container-tag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .custom-tag {
+    color: var(--color-sunshine) !important;
+    background-color: var(--color-sunshine-2);
+    display: inline-block;
+    padding: 0.3em 1em;
+    margin: 0.3em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 2rem;
+  }
+  

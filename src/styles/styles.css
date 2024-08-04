@@ -1,0 +1,177 @@
+/* src/styles/styles.css
+@import 'variables.css';
+@import 'header.css';
+@import 'main.css';
+@import 'cursor.css';
+
+*/
+
+
+:root{
+    --color-1: #0d152d;
+    --color-2: white;
+    --color-3: #a6b1c2;
+    --color-4: rgba(82, 73, 209, 0.473);
+    --color-5: #7e8186;
+    --color-sunshine: #52cbc2;
+    --color-sunshine-2: rgba(82, 203, 195, 0.308);
+
+    --color-highlight-2: #1e294ba9;
+}
+
+body{
+    margin: none;
+    padding: none;
+    background: var(--color-1);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    
+    
+}
+
+#cursor {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    pointer-events: none;
+}
+
+#black-background:hover #cursor {
+    box-shadow: 0 0 500px 100px var(--color-4); /* Ajusta según tus preferencias */
+}
+
+
+header{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    position: sticky;
+
+}
+
+.text-1{
+    color: var(--color-2) !important;
+    font-weight: bold;
+}
+
+.text-2{
+    color: var(--color-3) !important; 
+    font-size: 16px;    
+}
+
+.highlight-text{
+    color: var(--color-2) !important;
+}
+
+.custom-icon {
+    font-size: 2rem;
+    margin-right: 2vw !important;
+    color: var(--color-3);
+    &:hover{
+        color: var(--color-2);
+    }
+}
+
+.icon-redirect {
+    font-size: 1rem;
+    margin-right: 2vw !important;
+    color: var(--color-3);
+}
+
+.custom-span-1{
+    color: var(--color-3);
+    margin-right: 2vw;
+    transform: scaleX(2);
+}
+
+.custom-span-2{
+    font-weight: bold;
+}
+
+.custom-span-2 a{
+    font-size: 14px;
+}
+
+.custom-nav-item:hover{
+    width: 200px; /* Ajusta el ancho al hacer hover */
+    padding-left: 20px; /* Ajusta el desplazamiento al hacer hover */
+}
+
+.custom-nav-item:hover .custom-span-1{
+    color: var(--color-2) !important;
+}
+
+.custom-nav-item:hover .custom-span-2 a{
+    color: var(--color-2) !important;
+}
+
+
+main{
+    overflow-y: auto;
+
+}
+
+.date{
+    color: var(--color-5);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.custom-card{
+    border: 1px; /* Contorno con color */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.custom-card:hover{
+    
+    background-color: var(--color-highlight-2);
+}
+
+.custom-card:hover h5{
+    color: var(--color-sunshine) !important;
+}
+
+.custom-card p{
+    font-size: 13px;
+}
+
+.container-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-tag{
+    color: var(--color-sunshine) !important;
+    background-color: var(--color-sunshine-2);
+    display: inline-block;
+    padding: 0.3em 01em;
+    
+    margin: 0.3em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 2rem;
+}
+a:hover {
+    text-decoration: none; /* Asegura que no se subraye en el hover */
+}
+
+li {
+    transition: opacity 0.2s; /* Transición suave */
+}
+li:hover {
+    opacity: 1; /* Totalmente opaco cuando se hace hover sobre él */
+}
+li:not(:hover) {
+    opacity: 1; /* Asegura que los elementos no estén transparentes por defecto */
+}
+ul:hover li:not(:hover) {
+    opacity: 0.5; /* 20% de opacidad a los elementos que no están siendo hover */
+}
+
+ul{
+    padding: 0 !important;
+    list-style-type: none; /* Quita los puntos de la lista */
+
+}

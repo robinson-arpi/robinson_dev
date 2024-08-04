@@ -1,0 +1,44 @@
+{
+  "title": "Robinson Arpi",
+  "description": "Computer Science Engineer",
+  "quote": "\"If you can imagine it, you can program it\"",
+  
+  "about": {
+    "description": "About Me",
+    "p1": "I studied at the Faculty of Engineering of the <span class = 'highlight-text'>University of Cuenca</span>. I am immersed in the world of web development and data analysis. I constantly strive to learn and apply existing technologies in the best possible way. I seek to understand the complexities of problems to find solid and efficient solutions.",
+    "p2": "The <span class='highlight-text'>resilience</span> is a quality I consider essential on this path, as facing challenges and overcoming obstacles is an integral part of the development process. In my academic and practical journey, I have demonstrated a strong ability to adapt and learn quickly, fundamental characteristics in a constantly evolving environment.",
+    "p3": "When I'm not working or spending time with friends, I devote my time to learning about various topics. I believe that the limit of our universe lies in what we know."
+  },
+  
+  "experience": {
+    "description": "Experience",
+    "first": {
+      "date": "Mar 2024 - Present",
+      "title": "Research Assistant - IDE Ucuenca",
+      "url": "https://ide.ucuenca.edu.ec",
+      "description": "I worked for the Spatial Data Infrastructure Group at the University of Cuenca. During my time there, I was in charge of an open-source project involving the platforms GeoNode and MapStore. I carried out the following tasks: <b>Editing and Customization:</b> Adapted and customized GeoNode and MapStore to meet the specific needs of the group. <b>Dockerization and Deployment:</b> Containerized the applications using Docker and managed their deployment on the university's servers. <b>Maintenance and Updates:</b> Performed maintenance and updates on old servers to ensure optimal operation and system security."
+    },
+    "second": {
+      "date": "Jul 2023 - Sept 2023",
+      "title": "Junior Developer - FuturaEc",
+      "url": "https://www.futura.ec/",
+      "description": "During my pre-professional internships, I developed a system for the early detection of elevated assets in cooperatives, improving the management and control of resources. I implemented the solution using Spring Boot for the backend, Angular for the frontend, and Flask for additional services, ensuring an efficient and scalable architecture. I was responsible for all stages of the project, from the initial design to the final deployment, including complex calculations and testing to ensure the system's performance and accuracy."
+    }
+  },
+  "projects": "Projects",
+  
+  "courses": "Courses",
+  
+
+  "tecnologies": {
+    "react": "React",
+    "angular": "Angular",
+    "flask": "Flask",
+    "springboot": "SpringBoot",
+    "geonode": "Geonode",
+    "mapstore": "MapStore",
+    "docker": "Docker",
+    "deploy": "Deploy",
+    "postgresql": "PostgreSQL"
+  }
+}

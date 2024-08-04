@@ -1,0 +1,83 @@
+<main class="container-lg py-7">
+  <section class="mb-5 pb-5" id="about">
+    <p class="text-2" [innerHTML]="'about.p1' | translate"></p>
+    <br />
+    <p class="text-2" [innerHTML]="'about.p2' | translate"></p>
+    <br />
+    <p class="text-2" [innerHTML]="'about.p3' | translate"></p>
+  </section>
+
+  <section id="experience">
+    <ul>
+      <app-experience
+        [date]="'experience.first.date' | translate"
+        [title]="'experience.first.title' | translate"
+        [url]="'experience.first.url' | translate"
+        [description]="'experience.first.description' | translate"
+        [tags]="[
+          'React',
+          'Springboot',
+          'GeoNode',
+          'MapStore',
+          'Docker',
+          'Deploy'
+        ]"
+      >
+      </app-experience>
+      <app-experience
+        [date]="'experience.second.date' | translate"
+        [title]="'experience.second.title' | translate"
+        [url]="'experience.second.url' | translate"
+        [description]="'experience.second.description' | translate"
+        [tags]="['Flask', 'Springboot', 'Angular', 'Postgresql']"
+      >
+      </app-experience>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <div class="pb-4">
+      <div class="container custom-card p-3">
+        <div class="row">
+          <div class="col-md-2 date">2024</div>
+          <div class="col-md-10">
+            <h5 class="text-1">Chat analyzer</h5>
+            <p class="text-2">Analisis de chat de whatsapp</p>
+            <div class="container-tag">
+              <span class="custom-tag">Python</span>
+              <span class="custom-tag">Streamlit</span>
+              <span class="custom-tag">Machine learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-card p-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 date">Jul 2023</div>
+          <div class="col-md-10">
+            <h5 class="text-1">Programador junior - FuturaEc</h5>
+            <p class="text-2">
+              Durante mis prácticas profesionales en la empresa Futura,
+              contribuí al desarrollo de una aplicación destinada a la detección
+              de posibles casos de lavado de activos en cooperativas. Este
+              proyecto se alineó con los objetivos de mis estudios
+              universitarios, permitiéndome aplicar mis conocimientos en la
+              práctica y adquirir experiencia valiosa en el campo del desarrollo
+              de software, especialmente en el ámbito financiero y de seguridad.
+            </p>
+            <div class="container-tag">
+              <span class="custom-tag">Angular</span>
+              <span class="custom-tag">React</span>
+              <span class="custom-tag">Flask</span>
+              <span class="custom-tag">Springboot</span>
+              <span class="custom-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
