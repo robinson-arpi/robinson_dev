@@ -1,15 +1,43 @@
 {
-    "title": "Robinson Arpi",
-    "description": "Ingeniero en Ciencias de la Computación",
-    "quote": "\"Si puedes imaginarlo, puedes programarlo\"",
-    "experience": {
-      "description":"Experiencia",
-      "first": "Trabajé para el Grupo de Infraestructura de Datos Espaciales de la Universidad de Cuenca. Durante mi tiempo allí, me encargué de un proyecto de código abierto que involucraba las plataformas <span class='highlight-text'>GeoNode</span> y <span class='highlight-text'>MapStore</span>. Realicé las siguientes tareas: <b>Edición y Personalización:</b> Adapté y personalicé GeoNode y MapStore para cumplir con las necesidades específicas del grupo. <b>Dockerización y Despliegue:</b> Containericé las aplicaciones utilizando Docker y gestioné su despliegue en los servidores de la universidad. <b>Mantenimiento y Actualizaciones:</b> Realicé el mantenimiento y las actualizaciones en servidores antiguos para asegurar su funcionamiento óptimo y la seguridad del sistema."
-    },  "projects": "Proyectos",
+  "title": "Robinson Arpi",
+  "description": "Ingeniero en Ciencias de la Computación",
+  "quote": "\"Si puedes imaginarlo, puedes programarlo\"",
+  
+  "about": {
+    "description": "Sobre Mí",
+    "p1": "Estudié en la Facultad de Ingeniería de la <span class='highlight-text'>Universidad de Cuenca</span>. Estoy inmerso en el mundo del desarrollo web y el análisis de datos. Me esfuerzo constantemente por aprender y aplicar las tecnologías existentes de la mejor manera posible. Busco comprender las complejidades de los problemas para encontrar soluciones sólidas y eficientes.",
+    "p2": "La <span class='highlight-text'>resiliencia</span> es una cualidad que considero esencial en este camino, ya que enfrentar desafíos y superar obstáculos es una parte integral del proceso de desarrollo. En mi recorrido académico y práctico, he demostrado una fuerte capacidad para adaptarme y aprender rápidamente, características fundamentales en un entorno en constante evolución.",
+    "p3": "Cuando no estoy trabajando o pasando tiempo con amigos, dedico mi tiempo a aprender sobre diversos temas. Creo que el límite de nuestro universo reside en lo que sabemos."
+  },
+  
+  "experience": {
+    "description": "Experiencia",
+    "first": {
+      "date": "2024 - Presente",
+      "title": "Asistente de Investigación - IDE",
+      "url": "https://ide.ucuenca.edu.ec",
+      "description": "Trabajé para el Grupo de Infraestructura de Datos Espaciales de la Universidad de Cuenca. Durante mi tiempo allí, estuve a cargo de un proyecto de código abierto que involucraba las plataformas GeoNode y MapStore. Realicé las siguientes tareas: <b>Edición y Personalización:</b> Adapté y personalicé GeoNode y MapStore para satisfacer las necesidades específicas del grupo. <b>Dockerización y Despliegue:</b> Contenericé las aplicaciones utilizando Docker y gestioné su despliegue en los servidores de la universidad. <b>Mantenimiento y Actualizaciones:</b> Realicé mantenimiento y actualizaciones en servidores antiguos para garantizar un funcionamiento óptimo y la seguridad del sistema."
+    },
+    "second": {
+      "date": "Jul - Sept 2023",
+      "title": "Desarrollador Junior - FuturaEc",
+      "url": "https://www.futura.ec/",
+      "description": "Durante mis pasantías preprofesionales, desarrollé un sistema para la detección temprana de activos elevados en cooperativas, mejorando la gestión y control de recursos. Implementé la solución utilizando Spring Boot para el backend, Angular para el frontend y Flask para servicios adicionales, asegurando una arquitectura eficiente y escalable. Fui responsable de todas las etapas del proyecto, desde el diseño inicial hasta el despliegue final, incluyendo cálculos complejos y pruebas para garantizar el rendimiento y la precisión del sistema."
+    }
+  },
+  "projects": "Proyectos",
+  
   "courses": "Cursos",
-    "about_me": "Acerca de mí",
-    "about_me_p1": "Estudié en la Facultad de Ingeniería de la <span class = 'highlight-text'>Universidad de Cuenca</span>. Me encuentro inmerso en el mundo del desarrollo web y análisis de datos. Constantemente me esfuerzo por aprender y aplicar de la mejor manera posible las tecnologías existentes. Busco comprender las complejidades de los problemas para encontrar soluciones sólidas y eficientes.",
-    "about_me_p2": "La <span class='highlight-text'>resiliencia</span> es una cualidad que considero esencial en este camino, ya que enfrentar desafíos y superar obstáculos es parte integral del proceso de desarrollo. En mi viaje académico y práctico, he demostrado una fuerte capacidad de adaptación y aprendizaje rápido, características fundamentales en un entorno de constante evolución."
-
-
+  
+  "tecnologies": {
+    "react": "React",
+    "angular": "Angular",
+    "flask": "Flask",
+    "springboot": "SpringBoot",
+    "geonode": "Geonode",
+    "mapstore": "MapStore",
+    "docker": "Docker",
+    "deploy": "Despliegue",
+    "postgresql": "PostgreSQL"
   }
+}

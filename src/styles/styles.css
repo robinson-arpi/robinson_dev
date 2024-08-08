@@ -115,6 +115,7 @@ main{
     color: var(--color-5);
     font-size: 12px;
     font-weight: bold;
+    padding: none !important;
 }
 
 .custom-card{
@@ -175,3 +176,17 @@ ul{
     list-style-type: none; /* Quita los puntos de la lista */
 
 }
+
+
+.col-md-9{
+    padding-right: 2 !important;
+    padding-left: 0 !important;
+}
+
+.icon-redirect {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  a:hover .icon-redirect {
+    transform: translate(3px, -3px); /* Mueve el icono 5 píxeles a la derecha y 5 píxeles hacia abajo */
+  }
